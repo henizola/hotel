@@ -22,7 +22,7 @@ const Hotel = ({ hotel }) => {
         handleOpen={handleOpen}
         hotel={hotel}
       />
-      <ExternalStateExample />
+      {/* <ExternalStateExample /> */}
     </Container>
   );
 };
