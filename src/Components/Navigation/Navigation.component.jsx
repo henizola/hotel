@@ -19,7 +19,12 @@ export default function Navigation() {
         sx={{ width: "100%" }}
         style={{ backgroundColor: "rgb(245, 250, 255) !important" }}
       >
-        <Tabs value={value} onChange={handleChange} centered>
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          centered
+          className="desktop"
+        >
           <Tab label="Home" />
 
           <Tab label="About" />

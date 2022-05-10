@@ -94,6 +94,7 @@ body ul li {
     font-weight: 400!important;
 }
 
+
 .css-ahj2mt-MuiTypography-root{
     font-family: 'Montserrat', sans-serif!important;
 }
@@ -106,5 +107,8 @@ body ul li {
 }
 .css-7mt4h1-MuiInputBase-root .MuiInputBase-input{
     width:100%!important;
+}
+.desktop{
+    display: none!important;
 }
 }
