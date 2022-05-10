@@ -3,3 +3,97 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.MuiButtonBase-root{
+    padding:0!important;
+    margin:0 10px!important;
+    width: fit-content!important;
+}
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: 'Montserrat', sans-serif;
+}
+body ul li {
+    background-color: rgb(240, 240, 240);
+    text-align: left;
+    padding-lefT:20px;
+}
+
+.numbers {
+    background: rgb(0, 255, 246);
+    background: linear-gradient(
+      153deg,
+      rgba(0, 255, 246, 1) 0%,
+      rgba(111, 9, 121, 1) 100%
+    );
+    width: 20px !important;
+    height: 15px;
+    border-radius: 30px;
+    position: absolute;
+    font-size: 12px;
+    text-align: center;
+    padding: 3px 0;
+    right: 10px;
+    top: 3px;
+   
+  }
+
+  .MuiDrawer-paper{
+      z-index: 99999999;
+  }
+
+  button{
+      cursor: pointer;
+  }
+
+  
+
+  @media (min-width: 600px)
+{
+.css-i5yc6k > .MuiGrid-item {
+    padding-left: 0px!important;
+}}
+
+@media (min-width: 900px)
+{
+.css-i5yc6k > .MuiGrid-item {
+    padding-top: 0px!important;
+}}
+
+@media (min-width: 600px)
+{
+.css-i5yc6k > .MuiGrid-item {
+    padding-top: 0px!important;
+}}
+
+
+.css-1q2h7u5.Mui-selected {
+    color: rgb(0, 0, 0)!important;
+}
+
+.css-1q2h7u5.Mui-selected {
+    color: rgb(0, 0, 0)!important;
+    background-color: rgb(0, 0, 0)!important;
+}
+
+.css-1q2h7u5.Mui-selected {
+    /* color: rgb(25, 118, 210); */
+}
+
+.radios{
+    color:gray;
+    margin-top:10px;
+    font-weight:200;
+   
+}
+
+.black{
+    color:black;
+    font-weight: 400!important;
+}
+
+.css-ahj2mt-MuiTypography-root{
+    font-family: 'Montserrat', sans-serif!important;
+}
