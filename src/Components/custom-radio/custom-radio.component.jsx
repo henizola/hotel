@@ -78,6 +78,7 @@ export default function CustomizedRadios({ setSort, value }) {
         name="customized-radios"
         onChange={(e) => setSort(e.target.value)}
         value={value}
+        className="radio-container"
       >
         <FormControlLabel
           value="GROUP"

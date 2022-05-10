@@ -16,7 +16,7 @@ const Electronics = ({ filterString }) => {
   return (
     <Container>
       <Grid container spacing={5} className="p-t-50 pr-12">
-        <Grid item xs={2.5} lg={2.5}>
+        <Grid item xs={12} lg={2.5}>
           <p>Filter</p>
 
           <Divider />
@@ -40,7 +40,7 @@ const Electronics = ({ filterString }) => {
                   .filter((p) => p.group.includes(sorts))
                   .map((el) =>
                     el.entities.map((hotel, index) => (
-                      <Grid sm={4} className="p-6" key={index}>
+                      <Grid md={4} sm={1} className="p-6" key={index}>
                         <Hotel hotel={hotel} />
                       </Grid>
                     ))

@@ -18,10 +18,11 @@ export default function CenteredTabs({ value, setFilterString }) {
     margin: " 10px auto",
     border: "1px solid gray",
     textAlign: "left",
-    width: "25vw",
+    width: "100%",
 
     [theme.breakpoints.up("sm")]: {
       //   marginLeft: theme.spacing(1),
+      width: "100%!important",
     },
   }));
 

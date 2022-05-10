@@ -27,6 +27,9 @@ export const SearchBar = styled.div`
   width: fit-content;
   margin: 0 auto;
   display: flex;
+  @media screen and (max-width: 600px) {
+    width: 95vw !important;
+  }
   button {
     margin-left: 20px;
     border: 1px solid gray;

@@ -97,3 +97,14 @@ body ul li {
 .css-ahj2mt-MuiTypography-root{
     font-family: 'Montserrat', sans-serif!important;
 }
+
+@media screen and (max-width:600px){.radio-container{
+    display: flex!important
+    ;width:100%;
+    flex-direction: row!important;
+ 
+}
+.css-7mt4h1-MuiInputBase-root .MuiInputBase-input{
+    width:100%!important;
+}
+}
