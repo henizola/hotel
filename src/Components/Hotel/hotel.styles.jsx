@@ -22,4 +22,7 @@ export const Container = styled.div`
     margin: 0 !important;
     margin-top: 30px !important;
   }
+  @media screen and (max-width: 600px) {
+    width: 95vw !important;
+  }
 `;
